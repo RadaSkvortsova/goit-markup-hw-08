@@ -101,12 +101,14 @@
 
                     <ul class="mobile-list list-style">
                         <li class="mobile-list_item">
-                            <a href="" class="mobile-list_link mob-menu--activ"
+                            <a href="./index.html" class="mobile-list_link"
                                 >Студия</a
                             >
                         </li>
-                        <li class="mobile-list_item">
-                            <a href="" class="mobile-list_link">Портфолио </a>
+                        <li class="mobile-list_item mob-menu--activ">
+                            <a href="./portfolio.html" class="mobile-list_link"
+                                >Портфолио
+                            </a>
                         </li>
                         <li class="mobile-list_item">
                             <a href="" class="mobile-list_link">Контакты</a>
@@ -146,27 +148,27 @@
                     <h1 class="visually-hidden">Портфолио</h1>
                     <ul class="select list-style">
                         <li class="select__item">
-                            <button type="button" class="select__item__button">
+                            <button type="button" class="select__button">
                                 Все
                             </button>
                         </li>
                         <li class="select__item">
-                            <button type="button" class="select__item__button">
+                            <button type="button" class="select__button">
                                 Веб-сайты
                             </button>
                         </li>
                         <li class="select__item">
-                            <button type="button" class="select__item__button">
+                            <button type="button" class="select__button">
                                 Приложения
                             </button>
                         </li>
                         <li class="select__item">
-                            <button type="button" class="select__item__button">
+                            <button type="button" class="select__button">
                                 Дизайн
                             </button>
                         </li>
                         <li class="select__item">
-                            <button type="button" class="select__item__button">
+                            <button type="button" class="select__button">
                                 Маркетинг
                             </button>
                         </li>
@@ -175,29 +177,66 @@
                         <li class="select-img__item">
                             <a
                                 href="#"
-                                class="
-                                    img-decorate
-                                    select-img__item__interactive
-                                "
+                                class="img-decorate select-img__interactive"
                             >
-                                <div
-                                    class="
-                                        select-img__item__interactive__overlay
-                                    "
-                                >
-                                    <img
-                                        src="./images/img.jpg"
-                                        alt="наши сотрудники"
-                                        class="
-                                            select-img__item__interactive__overlay__img-style
-                                        "
-                                        width="370"
-                                    />
-                                    <p
-                                        class="
-                                            select-img__item__interactive__overlay__desk
-                                        "
-                                    >
+                                <div class="select-img__overlay">
+                                    <picture>
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/staff-desctop1x.webp 1x,
+                                                ./img/staff-desctop2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/staff-desctop1x.jpg 1x,
+                                                ./img/staff-desctop2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/staff-tablet1x.webp 1x,
+                                                ./img/staff-tablet2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/staff-tablet1x.jpg 1x,
+                                                ./img/staff-tablet2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/staff-mobile1x.webp 1x,
+                                                ./img/staff-mobile2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/staff-mobile1x.jpg 1x,
+                                                ./img/staff-mobile2x.jpg 2x
+                                            "
+                                        />
+
+                                        <img
+                                            src="#"
+                                            alt="наши сотрудники"
+                                            class="select-img__img-style"
+                                        />
+                                    </picture>
+
+                                    <p class="select-img__desk">
                                         Технокряк это современная площадка
                                         распространения коронавируса. Компании
                                         используют эту платформу для цифрового
@@ -214,29 +253,65 @@
                         <li class="select-img__item">
                             <a
                                 href="#"
-                                class="
-                                    img-decorate
-                                    select-img__item__interactive
-                                "
+                                class="img-decorate select-img__interactive"
                             >
-                                <div
-                                    class="
-                                        select-img__item__interactive__overlay
-                                    "
-                                >
-                                    <img
-                                        src="./images/img-1.jpg"
-                                        alt="игра в баскетбол"
-                                        class="
-                                            select-img__item__interactive__overlay__img-style
-                                        "
-                                        width="370"
-                                    />
-                                    <p
-                                        class="
-                                            select-img__item__interactive__overlay__desk
-                                        "
-                                    >
+                                <div class="select-img__overlay">
+                                    <picture>
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/basketball-desctop1x.webp 1x,
+                                                ./img/basketball-desctop2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/basketball-desctop1x.jpg 1x,
+                                                ./img/basketball-desctop2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/basketball-tablet1x.webp 1x,
+                                                ./img/basketball-tablet2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/basketball-tablet1x.jpg 1x,
+                                                ./img/basketball-tablet2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/basketball-mobile1x.webp 1x,
+                                                ./img/basketball-mobile2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/basketball-mobile1x.jpg 1x,
+                                                ./img/basketball-mobile2x.jpg 2x
+                                            "
+                                        />
+
+                                        <img
+                                            src="#"
+                                            alt="игра в баскетбол"
+                                            class="select-img__img-style"
+                                        />
+                                    </picture>
+                                    <p class="select-img__desk">
                                         Технокряк это современная площадка
                                         распространения коронавируса. Компании
                                         используют эту платформу для цифрового
@@ -255,29 +330,66 @@
                         <li class="select-img__item">
                             <a
                                 href="#"
-                                class="
-                                    img-decorate
-                                    select-img__item__interactive
-                                "
+                                class="img-decorate select-img__interactive"
                             >
-                                <div
-                                    class="
-                                        select-img__item__interactive__overlay
-                                    "
-                                >
-                                    <img
-                                        src="./images/img-2.jpg"
-                                        alt="логотип ресторана"
-                                        class="
-                                            select-img__item__interactive__overlay__img-style
-                                        "
-                                        width="370"
-                                    />
-                                    <p
-                                        class="
-                                            select-img__item__interactive__overlay__desk
-                                        "
-                                    >
+                                <div class="select-img__overlay">
+                                    <picture>
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/restaurant-desctop1x.webp 1x,
+                                                ./img/restaurant-desctop2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/restaurant-desctop1x.jpg 1x,
+                                                ./img/restaurant-desctop2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/restaurant-tablet1x.webp 1x,
+                                                ./img/restaurant-tablet2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/restaurant-tablet1x.jpg 1x,
+                                                ./img/restaurant-tablet2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/restaurant-mobile1x.webp 1x,
+                                                ./img/restaurant-mobile2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/restaurant-mobile1x.jpg  1x,
+                                                ./img/restaurantl-mobile2x.jpg 2x
+                                            "
+                                        />
+
+                                        <img
+                                            src="#"
+                                            alt="логотип ресторана"
+                                            class="select-img__img-style"
+                                        />
+                                    </picture>
+
+                                    <p class="select-img__desk">
                                         Технокряк это современная площадка
                                         распространения коронавируса. Компании
                                         используют эту платформу для цифрового
@@ -296,29 +408,66 @@
                         <li class="select-img__item">
                             <a
                                 href="#"
-                                class="
-                                    img-decorate
-                                    select-img__item__interactive
-                                "
+                                class="img-decorate select-img__interactive"
                             >
-                                <div
-                                    class="
-                                        select-img__item__interactive__overlay
-                                    "
-                                >
-                                    <img
-                                        src="./images/img-3.jpg"
-                                        alt="наушники"
-                                        class="
-                                            select-img__item__interactive__overlay__img-style
-                                        "
-                                        width="370"
-                                    />
-                                    <p
-                                        class="
-                                            select-img__item__interactive__overlay__desk
-                                        "
-                                    >
+                                <div class="select-img__overlay">
+                                    <picture>
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/headphones-desctop1x.webp 1x,
+                                                ./img/headphones-desctop2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/headphones-desctop1x.jpg 1x,
+                                                ./img/headphones-desctop2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/headphones-tablet1x.webp 1x,
+                                                ./img/headphones-tablet2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/headphones-tablet1x.jpg 1x,
+                                                ./img/headphones-tablet2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/headphones-mobile1x.webp 1x,
+                                                ./img/headphones-mobile2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/headphones-mobile1x.jpg 1x,
+                                                ./img/headphones-mobile2x.jpg 2x
+                                            "
+                                        />
+
+                                        <img
+                                            src="#"
+                                            alt="наушники"
+                                            class="select-img__img-style"
+                                        />
+                                    </picture>
+
+                                    <p class="select-img__desk">
                                         Технокряк это современная площадка
                                         распространения коронавируса. Компании
                                         используют эту платформу для цифрового
@@ -337,29 +486,66 @@
                         <li class="select-img__item">
                             <a
                                 href="#"
-                                class="
-                                    img-decorate
-                                    select-img__item__interactive
-                                "
+                                class="img-decorate select-img__interactive"
                             >
-                                <div
-                                    class="
-                                        select-img__item__interactive__overlay
-                                    "
-                                >
-                                    <img
-                                        src="./images/img-4.jpg"
-                                        alt="коробки"
-                                        class="
-                                            select-img__item__interactive__overlay__img-style
-                                        "
-                                        width="370"
-                                    />
-                                    <p
-                                        class="
-                                            select-img__item__interactive__overlay__desk
-                                        "
-                                    >
+                                <div class="select-img__overlay">
+                                    <picture>
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/box-desctop1x.webp 1x,
+                                                ./img/box-desctop2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/box-desctop1x.jpg 1x,
+                                                ./img/box-desctop2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/box-tablet1x.webp 1x,
+                                                ./img/box-tablet2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/box-tablet1x.jpg 1x,
+                                                ./img/box-tablet2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/box-mobile1x.webp 1x,
+                                                ./img/box-mobile2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/box-mobile1x.jpg 1x,
+                                                ./img/box-mobile2x.jpg 2x
+                                            "
+                                        />
+
+                                        <img
+                                            src="#"
+                                            alt="коробки"
+                                            class="select-img__img-style"
+                                        />
+                                    </picture>
+
+                                    <p class="select-img__desk">
                                         Технокряк это современная площадка
                                         распространения коронавируса. Компании
                                         используют эту платформу для цифрового
@@ -378,29 +564,66 @@
                         <li class="select-img__item">
                             <a
                                 href="#"
-                                class="
-                                    img-decorate
-                                    select-img__item__interactive
-                                "
+                                class="img-decorate select-img__interactive"
                             >
-                                <div
-                                    class="
-                                        select-img__item__interactive__overlay
-                                    "
-                                >
-                                    <img
-                                        src="./images/img-5.jpg"
-                                        alt="телевизор"
-                                        class="
-                                            select-img__item__interactive__overlay__img-style
-                                        "
-                                        width="370"
-                                    />
-                                    <p
-                                        class="
-                                            select-img__item__interactive__overlay__desk
-                                        "
-                                    >
+                                <div class="select-img__overlay">
+                                    <picture>
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/tv-desctop1x.webp 1x,
+                                                ./img/tv-desctop2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/tv-desctop1x.jpg 1x,
+                                                ./img/tv-desctop2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/tv-tablet1x.webp 1x,
+                                                ./img/tv-tablet2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/tv-tablet1x.jpg 1x,
+                                                ./img/tv-tablet2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/tv-mobile1x.webp 1x,
+                                                ./img/tv-mobile2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/tv-mobile1x.jpg 1x,
+                                                ./img/tv-mobile2x.jpg 2x
+                                            "
+                                        />
+
+                                        <img
+                                            src="#"
+                                            alt="телевизор"
+                                            class="select-img__img-style"
+                                        />
+                                    </picture>
+
+                                    <p class="select-img__desk">
                                         Технокряк это современная площадка
                                         распространения коронавируса. Компании
                                         используют эту платформу для цифрового
@@ -419,29 +642,66 @@
                         <li class="select-img__item">
                             <a
                                 href="#"
-                                class="
-                                    img-decorate
-                                    select-img__item__interactive
-                                "
+                                class="img-decorate select-img__interactive"
                             >
-                                <div
-                                    class="
-                                        select-img__item__interactive__overlay
-                                    "
-                                >
-                                    <img
-                                        src="./images/img-6.jpg"
-                                        alt="журнал"
-                                        class="
-                                            select-img__item__interactive__overlay__img-style
-                                        "
-                                        width="370"
-                                    />
-                                    <p
-                                        class="
-                                            select-img__item__interactive__overlay__desk
-                                        "
-                                    >
+                                <div class="select-img__overlay">
+                                    <picture>
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/magazine-desctop1x.webp 1x,
+                                                ./img/magazine-desctop2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/magazine-desctop1x.jpg 1x,
+                                                ./img/magazine-desctop2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/magazine-tablet1x.webp 1x,
+                                                ./img/magazine-tablet2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/magazine-tablet1x.jpg 1x,
+                                                ./img/magazine-tablet2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/magazine-mobile1x.webp 1x,
+                                                ./img/magazine-mobile2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/magazine-mobile1x.jpg 1x,
+                                                ./img/magazine-mobile2x.jpg 2x
+                                            "
+                                        />
+
+                                        <img
+                                            src="#"
+                                            alt="журнал"
+                                            class="select-img__img-style"
+                                        />
+                                    </picture>
+
+                                    <p class="select-img__desk">
                                         Технокряк это современная площадка
                                         распространения коронавируса. Компании
                                         используют эту платформу для цифрового
@@ -457,32 +717,53 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="select-img__item">
+                        <li class="select-img__item tablet-none">
                             <a
                                 href="#"
-                                class="
-                                    img-decorate
-                                    select-img__item__interactive
-                                "
+                                class="img-decorate select-img__interactive"
                             >
-                                <div
-                                    class="
-                                        select-img__item__interactive__overlay
-                                    "
-                                >
-                                    <img
-                                        src="./images/img-7.jpg"
-                                        alt="бирка"
-                                        class="
-                                            select-img__item__interactive__overlay__img-style
-                                        "
-                                        width="370"
-                                    />
-                                    <p
-                                        class="
-                                            select-img__item__interactive__overlay__desk
-                                        "
-                                    >
+                                <div class="select-img__overlay">
+                                    <picture>
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/lable-desctop1x.webp 1x,
+                                                ./img/lable-desctop2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/lable-desctop1x.jpg 1x,
+                                                ./img/lable-desctop2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/lablemobile1x.webp  1x,
+                                                ./img/lable-mobile2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/lable-mobile1x.jpg 1x,
+                                                ./img/lable-mobile2x.jpg 2x
+                                            "
+                                        />
+
+                                        <img
+                                            src="#"
+                                            alt="бирка"
+                                            class="select-img__img-style"
+                                        />
+                                    </picture>
+
+                                    <p class="select-img__desk">
                                         Технокряк это современная площадка
                                         распространения коронавируса. Компании
                                         используют эту платформу для цифрового
@@ -499,29 +780,66 @@
                         <li class="select-img__item">
                             <a
                                 href="#"
-                                class="
-                                    img-decorate
-                                    select-img__item__interactive
-                                "
+                                class="img-decorate select-img__interactive"
                             >
-                                <div
-                                    class="
-                                        select-img__item__interactive__overlay
-                                    "
-                                >
-                                    <img
-                                        src="./images/img-8.jpg"
-                                        alt="ноутбук"
-                                        class="
-                                            select-img__item__interactive__overlay__img-style
-                                        "
-                                        width="370"
-                                    />
-                                    <p
-                                        class="
-                                            select-img__item__interactive__overlay__desk
-                                        "
-                                    >
+                                <div class="select-img__overlay">
+                                    <picture>
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/notebook-desctop1x.webp 1x,
+                                                ./img/notebook-desctop2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 1200px)"
+                                            srcset="
+                                                ./img/notebook-desctop1x.jpg 1x,
+                                                ./img/notebook-desctop2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/notebook-tablet1x.webp 1x,
+                                                ./img/notebook-tablet2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 768px)"
+                                            srcset="
+                                                ./img/notebook-tablet1x.jpg 1x,
+                                                ./img/notebook-tablet2x.jpg 2x
+                                            "
+                                        />
+
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/notebook-mobile1x.webp 1x,
+                                                ./img/notebook-mobile2x.webp 2x
+                                            "
+                                            type="img/webp"
+                                        />
+                                        <source
+                                            media="(min-width: 480px)"
+                                            srcset="
+                                                ./img/notebook-mobile1x.jpg 1x,
+                                                ./img/notebook-mobile2x.jpg 2x
+                                            "
+                                        />
+
+                                        <img
+                                            src="#"
+                                            alt="ноутбук"
+                                            class="select-img__img-style"
+                                        />
+                                    </picture>
+
+                                    <p class="select-img__desk">
                                         Технокряк это современная площадка
                                         распространения коронавируса. Компании
                                         используют эту платформу для цифрового
@@ -543,90 +861,92 @@
         </main>
         <footer>
             <div class="container footer-box">
-                <div class="left-box">
-                    <a href="#" class="logo logo__footer"
-                        ><span class="logo__color">Web</span>Studio</a
-                    >
-                    <address class="contacts">
-                        <ul class="style-list list-style">
-                            <li class="contacts__item">
+                <div class="footer-container">
+                    <div class="left-box">
+                        <a href="#" class="logo logo__footer"
+                            ><span class="logo__color">Web</span>Studio</a
+                        >
+                        <address class="contacts">
+                            <ul class="style-list list-style">
+                                <li class="contacts__item">
+                                    <a
+                                        href="https://goo.gl/maps/QpyHVKhvYmUGHp939"
+                                        target="_blank"
+                                        rel="noreferrer noopener"
+                                        class="contacts__link footer-address"
+                                        >г. Киев, пр-т Леси Украинки, 26
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a
+                                        href="mailto:info@example.com"
+                                        class="contacts__link"
+                                        >@example.com</a
+                                    >
+                                </li>
+                                <li class="contacts__item">
+                                    <a
+                                        href="tel+380991111111"
+                                        class="contacts__link"
+                                        >+38 099 111 11 11</a
+                                    >
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="right-box">
+                        <h3 class="right-box__caption">присоединяйтесь</h3>
+                        <ul class="social">
+                            <li class="social__icon-item">
                                 <a
-                                    href="https://goo.gl/maps/QpyHVKhvYmUGHp939"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                    class="contacts__link footer-address"
-                                    >г. Киев, пр-т Леси Украинки, 26
+                                    href=""
+                                    class="social__link social__dark-background"
+                                >
+                                    <svg class="social__icon social__icon-fill">
+                                        <use
+                                            href="./images/sprite.svg#icon-instagram"
+                                        ></use>
+                                    </svg>
                                 </a>
                             </li>
-                            <li class="contacts__item">
+                            <li class="social__icon-item">
                                 <a
-                                    href="mailto:info@example.com"
-                                    class="contacts__link"
-                                    >@example.com</a
+                                    href=""
+                                    class="social__link social__dark-background"
                                 >
+                                    <svg class="social__icon social__icon-fill">
+                                        <use
+                                            href="./images/sprite.svg#icon-twitter"
+                                        ></use>
+                                    </svg>
+                                </a>
                             </li>
-                            <li class="contacts__item">
+                            <li class="social__icon-item">
                                 <a
-                                    href="tel+380991111111"
-                                    class="contacts__link"
-                                    >+38 099 111 11 11</a
+                                    href=""
+                                    class="social__link social__dark-background"
                                 >
+                                    <svg class="social__icon social__icon-fill">
+                                        <use
+                                            href="./images/sprite.svg#icon-facebook"
+                                        ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__icon-item">
+                                <a
+                                    href=""
+                                    class="social__link social__dark-background"
+                                >
+                                    <svg class="social__icon social__icon-fill">
+                                        <use
+                                            href="./images/sprite.svg#icon-linkedin"
+                                        ></use>
+                                    </svg>
+                                </a>
                             </li>
                         </ul>
-                    </address>
-                </div>
-                <div class="right-box">
-                    <h3 class="right-box__caption">присоединяйтесь</h3>
-                    <ul class="social">
-                        <li class="social__icon-item">
-                            <a
-                                href=""
-                                class="social__link social__dark-background"
-                            >
-                                <svg class="social__icon social__icon-fill">
-                                    <use
-                                        href="./images/sprite.svg#icon-instagram"
-                                    ></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social__icon-item">
-                            <a
-                                href=""
-                                class="social__link social__dark-background"
-                            >
-                                <svg class="social__icon social__icon-fill">
-                                    <use
-                                        href="./images/sprite.svg#icon-twitter"
-                                    ></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social__icon-item">
-                            <a
-                                href=""
-                                class="social__link social__dark-background"
-                            >
-                                <svg class="social__icon social__icon-fill">
-                                    <use
-                                        href="./images/sprite.svg#icon-facebook"
-                                    ></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social__icon-item">
-                            <a
-                                href=""
-                                class="social__link social__dark-background"
-                            >
-                                <svg class="social__icon social__icon-fill">
-                                    <use
-                                        href="./images/sprite.svg#icon-linkedin"
-                                    ></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
                 </div>
 
                 <form class="footer-form">

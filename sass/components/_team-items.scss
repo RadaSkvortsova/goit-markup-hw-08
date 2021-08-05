@@ -23,7 +23,6 @@
     color: $title-text-color;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    
 }
 
 .team__title-list {
@@ -34,3 +33,16 @@
     margin-bottom: 16px;
 }
 
+@media screen and (min-width: 768px) {
+    .team__desc {
+        flex-basis: calc((100% - 60px) / 2);
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .team__items {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -30px;
+        margin-bottom: -30px;
+    }
+}
