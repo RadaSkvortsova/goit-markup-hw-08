@@ -1,0 +1,140 @@
+.menu-toggle{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.mobile-menu{
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: $main-background-color;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms linear, visibility 250ms linear;
+    overflow-y: scroll;
+   
+    
+}
+.mobile-menu_container{
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+}
+   
+.mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+.close-button{
+    background-color: transparent;
+   
+    line-height: 0;
+    &_icon{
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+}
+}
+.close-button:hover .close-button_icon,
+.close-button:focus .close-button_icon{
+    fill: $color-for-logo;
+    cursor: pointer;
+}
+
+.mobile-menu_close-button{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+   border: 0;
+   
+}
+.mobile-container {
+    position: relative;   
+    margin: 0 auto;
+    width: 100%;
+      padding-left: 40px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 48px;
+}
+.mobile-list{
+    margin-top: 38px;
+}
+.mobile-list_link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+
+.mobile-list_item:not(:last-child){
+    margin-bottom: 32px;
+}
+
+.mobile_contact{
+    margin-top: 302px;
+    margin-bottom: 64px;
+}
+
+.mobile-contact_fon{
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: $color-for-logo;
+}
+
+.mobile-contact_item:not(:last-child){
+    margin-bottom: 32px;
+}
+
+.mobile-contact_email{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17x;
+    letter-spacing: 0.02em;
+    color: $title-text-color;
+}
+
+.mobile-social{
+    display: flex;
+}
+
+.mobile-social_link{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: $color-for-logo;   
+   
+}
+.mobile-social_item:not(:first-child){
+    padding-left: 10px;
+}
+
+.mobile-social_item:not(:last-child){
+   
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    padding-right: 10px;
+    
+}
+
+.mob-menu--activ{
+    color: $color-for-logo;
+}
+

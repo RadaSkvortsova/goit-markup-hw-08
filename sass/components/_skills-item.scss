@@ -1,0 +1,41 @@
+// .skills__list {
+//     display: flex;
+// }
+.skills__item {
+    width: 100%;
+}
+.skills__item:not(:last-child) {
+    margin-right: 30px;
+}
+.skills__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.skills__desc {
+    color: $title-text-color;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.skills__item:not(:last-child){
+    margin-bottom: 30px;
+}
+.skills__icon {
+    width: 70px;
+    height: 70px;
+    color: currentColor;
+}
+.skills__img {
+    background-color: #f5f4fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+

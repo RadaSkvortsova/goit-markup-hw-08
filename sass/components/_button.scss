@@ -1,0 +1,17 @@
+.service-button {
+    color: $accent-text-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    background-color: rgba(33, 150, 243, 1);
+    border: none;
+    padding: 10px 32px;
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.service-button:hover,
+.service-button:focus {
+    background-color: rgba(24, 140, 232, 1);
+}
