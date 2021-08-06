@@ -34,7 +34,7 @@
         height: 4px;
         background-color: $color-for-logo;
         position: absolute;
-        bottom: -29px;
+        bottom: -40px;
         left: 0;
         opacity: 1;
         transform: scaleX(1);
@@ -70,9 +70,8 @@
     }
 }
 
-
 @media screen and (min-width: 1200px) {
-    .nav-contacts__indent-left{
+    .nav-contacts__indent-left {
         margin-bottom: 0;
     }
 }
