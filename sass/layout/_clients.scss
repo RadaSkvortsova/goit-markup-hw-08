@@ -52,3 +52,21 @@
         flex-basis: calc((100% - 90px) / 3);
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .clients {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .clients__list {
+        flex-wrap: nowrap;
+    }
+    .clients__link {
+        width: 170px;
+    }
+    .clients__caption {
+        font-size: 36px;
+        list-style: 1.17;
+        margin-bottom: 50px;
+    }
+}

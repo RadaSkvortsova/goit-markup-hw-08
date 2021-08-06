@@ -1,14 +1,14 @@
-// .work {
-//     padding-bottom: 94px;
-// }
-// .work__title {
-//     font-weight: 700;
-//     font-size: 36px;
-//     text-align: center;
-//     line-height: 1.16;
-//     margin-bottom: 50px;
-// }
-.work{
-    display: none;
+@media screen and (min-width: 1200px){
+    .work{
+        display: block;
+        padding-bottom: 94px;
+    }
+    .work__title {
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        line-height: 1.16;
+        margin-bottom: 50px;
+    }
 }
 

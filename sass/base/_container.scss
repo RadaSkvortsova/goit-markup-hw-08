@@ -9,9 +9,14 @@
         max-width: 768px;
     }
 }
-// .container {
-//     width: 1200px;
-//     padding-left: 15px;
-//     padding-right: 15px;
-//     margin: auto;
-// }
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+    }
+    .nav__list.dynamic::after {
+        bottom: -24px;
+    }
+}

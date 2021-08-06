@@ -1,9 +1,11 @@
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-// .main-nav {
-//     display: flex;
-//     align-items: center;
-// }
+
+@media screen and (min-width: 1200px) {
+    .main-nav {
+        align-items: center;
+    }
+}
