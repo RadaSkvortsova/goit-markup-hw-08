@@ -140,3 +140,9 @@
         flex-wrap: wrap;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .select-img__item:not(:last-child) {
+        flex-basis: calc((100% - 90px) / 3);
+    }
+}
