@@ -133,6 +133,8 @@ footer {
 @media screen and (min-width: 1200px) {
     .footer-box {
         display: flex;
+        text-align: left;
+        align-items: baseline;
     }
 
     .right-box {

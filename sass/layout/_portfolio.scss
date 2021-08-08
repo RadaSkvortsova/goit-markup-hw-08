@@ -145,4 +145,7 @@
     .select-img__item:not(:last-child) {
         flex-basis: calc((100% - 90px) / 3);
     }
+    .tablet-none {
+        display: block;
+    }
 }

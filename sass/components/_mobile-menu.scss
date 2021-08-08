@@ -26,6 +26,10 @@
     padding-top: 48px;
     padding-bottom: 48px;
     padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 .mobile-menu.is-open {
@@ -83,8 +87,8 @@
 }
 
 .mobile_contact {
-    margin-top: 302px;
     margin-bottom: 64px;
+    margin-top: auto;
 }
 
 .mobile-contact_fon {

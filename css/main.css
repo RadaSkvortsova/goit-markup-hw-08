@@ -92,6 +92,7 @@ header {
   padding-top: 118px;
   padding-bottom: 118px;
   background: #c4c4c4;
+  max-width: 1600px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-mobile1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -426,6 +427,8 @@ footer {
 @media screen and (min-width: 1200px) {
   .footer-box {
     display: flex;
+    text-align: left;
+    align-items: baseline;
   }
   .right-box {
     margin-left: 70px;
@@ -597,6 +600,9 @@ footer {
 @media screen and (min-width: 1200px) {
   .select-img__item:not(:last-child) {
     flex-basis: calc((100% - 90px) / 3);
+  }
+  .tablet-none {
+    display: block;
   }
 }
 
@@ -1219,6 +1225,10 @@ footer {
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 .mobile-menu.is-open {
@@ -1281,8 +1291,8 @@ footer {
 }
 
 .mobile_contact {
-  margin-top: 302px;
   margin-bottom: 64px;
+  margin-top: auto;
 }
 
 .mobile-contact_fon {
@@ -1371,6 +1381,10 @@ footer {
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 .mobile-menu.is-open {
@@ -1433,8 +1447,8 @@ footer {
 }
 
 .mobile_contact {
-  margin-top: 302px;
   margin-bottom: 64px;
+  margin-top: auto;
 }
 
 .mobile-contact_fon {
