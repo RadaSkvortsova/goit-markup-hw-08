@@ -7,7 +7,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .is-hidden {
@@ -17,13 +17,23 @@
 }
 .modal {
     position: absolute;
-    top: 50%;
+    top: 15px;
     left: 50%;
     width: 96vw;
     background-color: #ffffff;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     padding: 40px;
-    overflow-y: scroll;
+    overflow-y: auto;
+@media screen and (min-width: 480px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 .modal__modal-close {
     width: 11px;
@@ -50,16 +60,4 @@
 .modal__close-btn:focus {
     fill: rgba(33, 150, 243, 1);
     border: 1px solid rgba(33, 150, 243, 1);
-}
-@media screen and (min-width: 768px) {
-    .modal {
-        top: 70%;
-        width: 70vw;
-    }
-}
-@media screen and (min-width: 1200px) {
-    .modal {
-        top: 50%;
-        width: 528px;
-    }
 }
