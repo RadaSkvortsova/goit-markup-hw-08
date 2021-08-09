@@ -23,9 +23,7 @@
 }
 .mobile-menu_container {
     position: relative;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    padding-left: 40px;
+    padding: 48px 40px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -70,9 +68,7 @@
     padding-top: 10px;
     padding-bottom: 48px;
 }
-.mobile-list {
-    margin-top: 38px;
-}
+
 .mobile-list_link {
     text-decoration: none;
     font-weight: 500;
@@ -93,12 +89,15 @@
 
 .mobile-contact_fon {
     font-weight: 500;
-    font-size: 34px;
+    font-size: 8vw;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: $color-for-logo;
-}
 
+  @media screen and (min-width: 480px) {
+    font-size: 34px;
+  }
+}
 .mobile-contact_item:not(:last-child) {
     margin-bottom: 32px;
 }
@@ -106,7 +105,7 @@
 .mobile-contact_email {
     font-weight: 500;
     font-size: 24px;
-    line-height: 1.17x;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: $title-text-color;
 }
@@ -124,16 +123,15 @@
     color: $color-for-logo;
 }
 .mobile-social_item:not(:first-child) {
-    padding-left: 10px;
+   
 }
 
 .mobile-social_item:not(:last-child) {
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
-    padding-right: 10px;
+   border-right: 1px solid rgba(33, 33, 33, 0.2);
+  margin-right: 10px;
+   padding-right: 10px;
 }
-.mobile-social_item {
-    margin-bottom: 10px;
-}
+
 
 .mob-menu--activ {
     color: $color-for-logo;
