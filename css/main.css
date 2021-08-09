@@ -1124,7 +1124,7 @@ footer {
   text-decoration: none;
   color: #2196f3;
   border-bottom: 1px solid #2196f3;
-  margin-left: 7px;
+  margin-left: 4px;
 }
 
 .modal-form__svg {
@@ -1158,26 +1158,36 @@ footer {
 
 .modal-form__check {
   cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .checkbox-container {
   width: 100%;
-  font-size: 12px;
-  line-height: 2.16;
+  font-size: 10px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 480px) {
+  .checkbox-container {
+    font-size: 12px;
+  }
+}
+
 .modal-form__check::before {
-  display: inline-flex;
+  display: block;
   content: '';
   width: 16px;
   height: 15px;
   border: 1px solid #303030;
-  border-radius: 3px;
+  border-radius: 4px;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .menu-toggle {
