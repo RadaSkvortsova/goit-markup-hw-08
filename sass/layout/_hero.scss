@@ -8,6 +8,7 @@
     margin-bottom: 30px;
 }
 .hero {
+    margin: 0 auto;
     background-color: $section-background-color;
     text-align: center;
     padding-top: 118px;
@@ -20,6 +21,9 @@
             rgba(47, 48, 58, 0.4)
         ),
         url(../img/hero-tablet1x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
     screen and (min-resolution: 192dpi) and (min-width: 320px),
